@@ -24,7 +24,7 @@ A backend REST API built using Node.js, Express, and MongoDB to manage student r
 ## Installation
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/preetam1602/student-data-management.git
    cd student-data
    ```
 
