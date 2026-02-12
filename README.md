@@ -21,43 +21,22 @@ A full-stack web application for managing student records with user authenticati
 
 ### Backend
 - Node.js
-- Express.js 5
-- MongoDB with Mongoose
-- Bcrypt for password hashing
-- CORS enabled
+- Express.js
+- MongoDB
+- Mongoose
 
-## 📁 Project Structure
+## API Endpoints
+- POST /api/students
+- GET /api/students
+- PUT /api/students/:id
+- DELETE /api/students/:id
 
-```
-student-data/
-├── backend/
-│   └── src/
-│       ├── config/          # Database and constants
-│       ├── controllers/     # Business logic
-│       ├── models/         # MongoDB schemas
-│       ├── routes/         # API routes
-│       ├── app.js          # Express app setup
-│       └── index.js        # Server entry point
-├── frontend/
-│   └── src/
-│       ├── components/     # Reusable UI components
-│       ├── pages/          # Page components
-│       └── App.jsx         # Main app component
-└── .env                    # Environment variables
-```
-
-## 🚀 Installation & Setup
-
-### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB Atlas account or local MongoDB
-- npm or yarn
-
-### 1. Clone the repository
-```bash
-git clone <repository-url>
-cd student-data
-```
+## Installation
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd student-data
+   ```
 
 ### 2. Set up environment variables
 Create a `.env` file in the root directory:
